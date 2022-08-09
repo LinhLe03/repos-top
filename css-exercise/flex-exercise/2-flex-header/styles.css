@@ -1,16 +1,56 @@
-div {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div {
   display: flex;
   flex-direction: row;
 }
 
 .header {
   /*display: flex;
-  flex-direction: row;*/
+  flex-direction: row;
   justify-content: space-between;
   background-color: blanchedalmond;
   max-height: 100px;
   max-width: 800px;
 }
+
+div li {
+  row-gap: 10px;
+  flex-direction: row;
+}
+
 
 .left-links,
 .right-links,
@@ -20,10 +60,11 @@ div {
 
 .left-links, 
 .right-links {
+  padding: 5px 10px;
   max-width: 150px;
-  max-height: 150px;
-  background-color: white;
-  flex: 1 0 auto;
+  max-height: 100px;
+  
+  flex: 1 1 auto;
   flex-direction: row;
   font-weight: 900;
   color: blue;
@@ -38,6 +79,8 @@ div {
 }
 
 #logo {
+  margin: auto;
+  padding: 10px 20px;
   max-width: 150px;
   max-height: 50px;
   background-color: white;
@@ -47,3 +90,5 @@ div {
   align-items: center;
   justify-content: center;
 }
+
+*/
