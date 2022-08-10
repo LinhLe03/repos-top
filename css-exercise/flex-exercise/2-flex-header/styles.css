@@ -1,6 +1,7 @@
 .header {
   background-color: blanchedalmond;
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -10,6 +11,8 @@ nav ul {
   flex-direction: row;
   list-style: none;
   justify-content: space-between;
+  margin: 0;
+  padding: 0; /*padding to push left-links to the very left*/
 }
 
 nav li {
@@ -46,9 +49,9 @@ nav li {
 
 /*              Resize           */
 
-@media all and (min-width: 600px) {
+/* @media all and (min-width: 800px) {
   nav li {
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .left-links {
@@ -58,5 +61,15 @@ nav li {
   .right-links {
     justify-content: flex-end;
   }
+
+  .left-links,
+  .right-links {
+    font-size: 15px;
+  }
+  #logo {
+    font-size: 36px;
+  }  
 }
+
+*/
   
