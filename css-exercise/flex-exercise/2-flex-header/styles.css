@@ -19,26 +19,31 @@ nav li {
 }
 
 #logo {
+  font-size: 30px;
+  color: orange;
+  margin: 15px; 
+  padding: 12px 10px;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/*      Appearance       */
 
-
-
-/*div {
-  display: flex;
-  flex-direction: row;
+.left-links,
+.right-links,
+#logo {  
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
 }
 
-.header {
-  /*display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: blanchedalmond;
-  max-height: 100px;
-  max-width: 800px;
+.left-links, 
+.right-links {
+  color: blue;
+}
+
+/*
 }
 
 div li {
@@ -47,14 +52,9 @@ div li {
 }
 
 
-.left-links,
-.right-links,
-#logo {  
-  font-family: 'Courier New', Courier, monospace;
-}
 
-.left-links, 
-.right-links {
+
+
   padding: 5px 10px;
   max-width: 150px;
   max-height: 100px;
