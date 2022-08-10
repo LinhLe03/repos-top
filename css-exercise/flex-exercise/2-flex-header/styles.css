@@ -4,11 +4,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
+/*          Logo and links       */
 nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
+  justify-content: space-between;
 }
 
 nav li {
@@ -29,3 +30,33 @@ nav li {
   align-items: center;
 }
 
+/*      Appearance       */
+
+.left-links,
+.right-links,
+#logo {  
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+.left-links, 
+.right-links {
+  color: blue;
+}
+
+/*              Resize           */
+
+@media all and (min-width: 600px) {
+  nav li {
+    justify-content: space-around;
+  }
+
+  .left-links {
+    justify-content: flex-start;
+  }
+
+  .right-links {
+    justify-content: flex-end;
+  }
+}
+  
