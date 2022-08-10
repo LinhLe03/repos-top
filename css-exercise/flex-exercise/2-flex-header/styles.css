@@ -19,71 +19,13 @@ nav li {
 }
 
 #logo {
-  font-size: 30px;
+  font-size: 46px;
   color: orange;
   margin: 15px; 
-  padding: 12px 10px;
+  padding: 2px 20px;
   background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/*      Appearance       */
-
-.left-links,
-.right-links,
-#logo {  
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bolder;
-}
-
-.left-links, 
-.right-links {
-  color: blue;
-}
-
-/*
-}
-
-div li {
-  row-gap: 10px;
-  flex-direction: row;
-}
-
-
-
-
-
-  padding: 5px 10px;
-  max-width: 150px;
-  max-height: 100px;
-  
-  flex: 1 1 auto;
-  flex-direction: row;
-  font-weight: 900;
-  color: blue;
-}
-
-.left-links {
-  justify-content: start;
-}
-
-.right-links {
-  justify-content: end;
-}
-
-#logo {
-  margin: auto;
-  padding: 10px 20px;
-  max-width: 150px;
-  max-height: 50px;
-  background-color: white;
-  font-weight: bolder;
-  font-size: 36px;
-  color: rgb(231, 109, 9);
-  align-items: center;
-  justify-content: center;
-}
-
-*/
