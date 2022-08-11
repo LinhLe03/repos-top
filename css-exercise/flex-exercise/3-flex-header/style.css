@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px;   
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  justify-content: flex-start;
+  gap: 8px;
+  list-style: none;
+}
+
+.left-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.right-links {
+
+}
