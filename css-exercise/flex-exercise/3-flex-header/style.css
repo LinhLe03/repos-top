@@ -1,8 +1,10 @@
 .header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(237, 239, 241);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 8px;   
+  padding: 8px; 
 }
 
 nav ul {
@@ -10,8 +12,31 @@ nav ul {
   flex-direction: row;
   flex: auto;
   justify-content: flex-start;
-  gap: 8px;
+  gap: 8px ;
+  margin: 0 16px;
   list-style: none;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(109, 32, 182);
+}
+
+button {
+  padding: 10px 10px;
+  background-color: rgb(109, 32, 182);
+  color: white;
+  border: rgb(109, 32, 182);
+  margin: 8px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.left-links, 
+.right-links
+#logo {
+  color: rgb(109, 32, 182);
 }
 
 .left-links {
@@ -21,6 +46,16 @@ nav ul {
   align-items: center;
 }
 
-.right-links {
+#logo {
+  font-weight: 900; 
+  font-size: 36px;
+  font-style: italic;
+  margin-left: 4px ;
+}
 
+button #round {
+  padding: 10px 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
