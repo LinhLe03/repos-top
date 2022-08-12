@@ -1,61 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
+}
+
 .header {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(237, 239, 241);
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 8px; 
 }
 
+.round {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+
 nav ul {
   display: flex;
-  flex-direction: row;
-  flex: auto;
-  justify-content: flex-start;
-  gap: 8px ;
-  margin: 0 16px;
+  flex: auto; /*justify-content: flex-start makes #logo = 8 x 24 --> delete*/  
+  gap: 16px;
   list-style: none;
-  padding-left: 0;
+  padding: 0;
+  margin: 0;
 }
 
 a {
   text-decoration: none;
-  color: rgb(109, 32, 182);
+  color: rebeccapurple;
 }
 
 button {
-  padding: 10px 10px;
-  background-color: rgb(109, 32, 182);
+  padding: 8px 24px;
+  background-color: rebeccapurple;
   color: white;
-  border: rgb(109, 32, 182);
-  margin: 8px;
+  border: none;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
-.left-links, 
-.right-links
-#logo {
-  color: rgb(109, 32, 182);
+.left-links,
+.right-links {
+  display: flex; /* apply display:flex to make #round has dimension: 48 x 48 */
+  gap: 16px;
 }
 
 .left-links {
-  display: flex;
+  color: rebeccapurple;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center; /*apply align-items: center in .left-links, .right-links --> #round = 8 * 24*/
 }
 
 #logo {
+  color: rebeccapurple;
   font-weight: 900; 
-  font-size: 36px;
+  font-size: 32px;
   font-style: italic;
-  margin-left: 4px ;
 }
 
-button #round {
-  padding: 10px 10px;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-}
+
+
