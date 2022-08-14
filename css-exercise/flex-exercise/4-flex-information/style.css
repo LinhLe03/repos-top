@@ -1,13 +1,9 @@
 body {
-    display: flex;
+    text-align: center; 
+    /*automatically center everything, no need for flex + flex-direction + justify-content*/ 
     font-family: 'Courier New', Courier, monospace;
-
   }
 
-  div {
-    display: flex;
-  }
-  
   img {
     width: 100px;
     height: 100px;
@@ -16,12 +12,18 @@ body {
   .title {
     font-size: 36px;
     font-weight: 900;
-    justify-content: center;
     margin-bottom: 32px;
   }
 
-  .text {
-    
+
+  .container {
+    display: flex;  
+    justify-content: center;
+    gap: 52px;  /*use gap instead of margin*/ 
+  }
+
+  .items {
+    max-width: 200px;
   }
   
   /* do not edit this footer */
