@@ -21,10 +21,14 @@ body {
 }
 
 .text {
-    padding: 10px;
+    margin: 15px 0;
 }
 
-
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .modal {
   background: white;
@@ -43,6 +47,7 @@ body {
   height: 42px;
   border-radius: 50%;
   display: flex;
+  flex-shrink: 0;
   align-items: center;
   justify-content: center;
   margin: 10px;
