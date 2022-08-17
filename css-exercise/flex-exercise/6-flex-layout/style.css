@@ -7,6 +7,16 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+a {
+    text-decoration: none;  
+}
+
+div ul {
+    display: flex;
+    list-style: none;
+}
+
+
 img {
   width: 600px;
 }
@@ -24,4 +34,25 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #eee;
+    align-items: flex-end;
+}
+
+.footer.left {
+    justify-content: flex-start;
+}
+
+.footer.right {
+    justify-content: flex-end;
 }
