@@ -43,6 +43,10 @@ body {
     font-size: 24px;
     color: white;
     text-decoration: none;
+    
+  }
+
+  .sidebar li {
     list-style: none;
 
   }
@@ -51,6 +55,13 @@ body {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
+    /*solution*/
+    display: flex;
+    flex-flow: row wrap;
+    width: 350px;
+    height: 300px;
+    margin: 32px;
+    padding: 32px;
   }
 
   /*solution*/ 
