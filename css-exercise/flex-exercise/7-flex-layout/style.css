@@ -25,7 +25,6 @@ body {
     color: darkmagenta;
     /*solution*/
     display: flex;
-    flex: auto;
     justify-content: center;
     align-items: center;
   }
@@ -33,10 +32,29 @@ body {
   .sidebar {
     width: 300px;
     background: royalblue;
+    /*solution*/
+    display: flex;
+    flex: 1 0 300px;
+    padding: 16px;
+  }
+
+  /*solution*/
+  .sidebar a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+
   }
   
   .card {
     border: 1px solid #eee;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
+  }
+
+  /*solution*/ 
+  .container {
+    display: flex;
+    flex: 1 0 auto;
   }
