@@ -1,19 +1,37 @@
-
-.header {
+.header,
+.hero-all {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 150px;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
 }
 
-ul {
-    color: ;
+.header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
 }
 
 a {
     color: #e5e7eb;
     font-size: 18px;
     margin: 10px;
+    font-weight: 100;
     list-style: none;
     text-decoration: none;
+}
+
+.hero {
+    flex-direction: row;
+}
+
+.hero-2 {
+    width: 300px;
+    height: 150px;
+    background-color: #1f2937;
 }
