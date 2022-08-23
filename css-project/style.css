@@ -38,12 +38,10 @@ a {
 
 .hero-1,
 .hero-2 {
-    
 }
 
 
 .hero-1 {
-    display: flex;
     flex-direction: column;
     width: 750px;
     padding-bottom: 200px;
@@ -59,5 +57,14 @@ a {
 .hero-2 {
     width: 500px;
     height: 150px;
-    background-color: #1f2937;
+    text-align: center;
+    background-color: gray;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
 }
