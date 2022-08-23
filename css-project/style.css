@@ -36,13 +36,17 @@ a {
 
 /* =============== HERO ================ */
 
+.hero-all {
+    justify-content: space-between;
+    gap: 50px;
+}
+
 .hero-1,
 .hero-2 {
 }
 
 
 .hero-1 {
-    flex-direction: column;
     width: 750px;
     padding-bottom: 200px;
 }
@@ -62,6 +66,7 @@ a {
 }
 
 button {
+    font-weight: 500;
     background-color: #3882f6;
     color: white;
     border: none;
