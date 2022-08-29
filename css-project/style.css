@@ -47,6 +47,7 @@ a {
 
 
 .hero-1 {
+    display: flex;
     width: 750px;
     padding-bottom: 200px;
 }
