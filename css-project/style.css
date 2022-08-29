@@ -36,3 +36,22 @@ a {
 
 /* =============== HERO ================ */
 
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+button {
+    font-weight: 500;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.hero-2 {
+    text-align: center;
+    background-color: gray;
+}
